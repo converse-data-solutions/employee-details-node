@@ -1,6 +1,6 @@
 const express = require('express')
 const cors = require('cors')
-const router = require('./Routes/empRouters.js')
+const router = require('./Routes/Employee.Routers.js')
 const app = express()
 const port = process.env.port || 8087
 
